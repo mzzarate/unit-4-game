@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Unit-4-game</title>
+    <link rel="stylesheet" type="text/css" href= "./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href= "./assets/css/reset.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class= "container"> 
+      <h1>Crystals Collector</h1>
+       <p>Guess what number I'm thinking of?</p>
+       <p> Wins <span id="wins">0</span></p>
+       <p>Losses <span id="losses">0</span></p>
+       <p> Your score total is  <span id="yourTotalScoreis">0</span></p>
+
+
+       <input id="guesses" type="text" name="guesses" onkeyup="guess()"><br>
+    
+       <p> 
+       <img id="firstCrystal" src="../unit-4-game/assets/images/642112_crystalsrocksminerals_model.jpg" style="visibility:visible" width=97px; height= 90px;/>
+      
+       <img id="secondCrystal" src="../unit-4-game/assets/images/Blue-kyanite-58d96dfd5f9b584683f53f95.jpg" style="visibility:visible" width=97px; height= 90px;/>
+      
+       <img id="thirdCrystal" src="../unit-4-game/assets/images/EL8Hxqk.png" style="visibility:visible" width=97px; height= 90px;/>
+       <img id="fourthCrystal" src="../unit-4-game/assets/images/d930d46959ce702813380ee692a126c2--healing-crystals-grow-crystals.jpg" style="visibility:visible" width=97px; height= 90px;/>
+        </p>
+        <script src="assets/javascript/game.js"> </script>
+    </div>
+</body>
+</html>
